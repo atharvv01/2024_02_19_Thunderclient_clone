@@ -7,23 +7,116 @@
 body,html{
     margin: 0%;
     padding: 0%;
-    /* background-color: #1F1F1F; */
+    background-color: #1F1F1F;
 }
 
 .mainbody{
-    height: 500px;
-    width: 500px;
+    height: 810px;
+    width: 722px;
     background-color: blue;
     display: flex;
     flex-direction: column;
 }
+.middle{
+    height: 96%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+
+.sidebar{
+    height: 100%;
+    width: 60px;
+    background-color: #181818;
+}
+.sidebar_image{
+    transform: scale(0.51);
+    position: relative;
+    top: -406.1px;
+    right: 26px;
+    width: fit-content;
+}
+
+.functional_part{
+    height: 100%;
+    width: 100%;
+    background-color: hotpink;
+}
 .upperhalf{
+    display: flex;
+    flex-direction: column;
     height: 50%;
-    width: 50%;
+    width: 100%;
     background-color: aqua;
 }
+.url_section{
+    display: flex;
+    flex-direction: column;
+    height: 28%;
+    width: 100%;
+    background-color: darkred;
+}
+
+.input_bar{
+    display: flex;
+    position: relative;
+    top: 22px;
+    width: 100%;
+    height: 43px;
+    background-color: darkgreen;
+}
+
+.dropdown{
+    height: fit-content;
+    width: 40px;
+    background-color: cadetblue;
+    position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+  }
+
+.param_type{
+    top: 25px;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: lawngreen;
+}
+
+.param_section{
+    height: 72%;
+    width: 100%;
+    background-color: yellow;
+}
+
 .lowerhalf{
     height: 50%;
-    width: 50%;
-    background-color: bisque;
+    width: 100%;
+    /* background-color: bisque; */
+}
+
+.footer{
+    width: 100%;
+    height: 4%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+
+.footer_img{
+    
+    transform: scale(0.51);
+    position: relative;
+    top: -4px;
+    right: 3px;
+    width: fit-content;
 }
